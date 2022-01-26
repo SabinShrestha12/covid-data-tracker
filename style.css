@@ -1,0 +1,95 @@
+*{
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: #eee;
+}
+.main_div
+{
+	height: 110vh;
+	width: 100%;
+	position: relative;
+}
+.main_div .image
+{
+	background: lightblue;
+}
+.main_div .image .img_div
+{
+	position: absolute;
+	left: 38%;
+	top: -182px;
+	background-color: midnightblue;
+}
+.main_div .image_div .para
+{
+	position: absolute;
+	top: 40%;
+}
+.main_div .image .para p
+{
+	margin-top: 182px;
+}
+.main_div .total_cases
+{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	left: 10%;
+	top: 20%;
+	overflow: hidden;
+	background: yellow;
+	color: black;
+}
+.main_div .recovered_cases
+{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	color: white;
+	left: 40%;
+	top: 20%;
+}
+.main_div .total_death
+{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	left: 80%;
+	color: beige;
+	top: 20%;
+}
+.main_div .total_cases .content
+{
+	margin-top: 40px;
+	height: 50%;
+	width: 100%;
+}
+.main_div .total_cases .content p
+{
+	line-height: 80px;
+}
+.main_div .recovered_cases .content
+{
+	height: 50%;
+	width: 100%;
+}
+.main_div .recovered_cases .content p
+{
+	line-height: 80px;
+}
+.main_div .total_death .content
+{
+	margin-top: 40px;
+	height: 50%;
+	width: 100%;
+}
+.main_div .total_death .content p
+{
+	line-height: 80px;
+}
